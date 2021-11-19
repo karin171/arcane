@@ -1,0 +1,198 @@
+*{margin: 0px; padding: 0px;}
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav li{
+    color: white;
+    font-family: 'Lato Light', Arial, sans-serif;
+    font-size: 120%;
+    font-weight: 500;
+    display: inline;
+    text-align: center;
+    padding: 0 35px;
+}
+.nav #list{
+    border-left: 2px solid #ffffff;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav li:hover{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #fff;
+}
+.profile h4{
+    color: #fff;
+    font-family: 'Lato Light', Arial, sans-serif;
+}
+.main{
+    width: 100%;
+    height: 2480px;
+    background: rgb(65,70,51);
+    background: radial-gradient(circle, rgba(65,70,51,1) 7%, rgba(29,7,11,1) 100%);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+}
+.first_text{
+    color: rgb(155, 146, 134);
+    padding: 250px 80px 0;
+    width: 500px;
+    height: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    text-align: center;
+}
+.first_text button{
+    background-color: rgb(197, 174, 156);
+    color: black;
+    padding: 12px 25px;
+    border: 1px solid rgb(197, 174, 156);
+    font-family: 'Lato Light', Arial, sans-serif;
+    font-size: 80%;
+}
+.first_img{
+    margin-top:150px;
+}
+.first_img img{
+    box-shadow: 1px 1px 50px rgb(8, 7, 0);
+}
+.second{
+    background: url(../img/piltover_city.jpg);
+    background-size: contain;
+}
+.second h2, .third h2{
+    color: white;
+    font-family: 'Lato Light', Arial, sans-serif;
+    font-size: 150%;
+    font-weight: 500;
+    text-align: center;
+    padding: 100px 0 0;
+}
+.piltovers, .zauns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.block{
+    text-align: center;
+    color: white;
+    font-family: 'Lato Light', Arial, sans-serif;
+}
+.block1{
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    border: 2px solid rgb(104, 100, 97);
+    margin: 0 50px;
+}
+.kate:hover{
+    background: url(../img/Caitlynjpg.jpg);
+    background-size: contain;
+
+}
+.kate{
+    background: url(../img/CharacterPoster-Cait.jpg);
+    background-size: contain;
+}
+.jayce:hover{
+    background: url(../img/Jayce.png);
+    background-size: contain;
+}
+.jayce{
+    background: url(../img/CharacterPoster-Jayce.jpg);
+    background-size: contain;
+}
+.mel:hover{
+    background: url(../img/afkmel.jpg);
+    background-size: contain;
+}
+.mel{
+    background: url(../img/CharacterPoster-Mel.jpg);
+    background-size: contain;
+}
+.third{
+    background: url(../img/piltover.jpg);
+    background-size: contain;
+}
+.block2{
+    width: 350px;
+    height: 450px;
+    border: 2px solid rgb(104, 100, 97);
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.jinx{
+    background: url(../img/CharacterPoster-Jinx.jpg);
+    background-size: contain;
+}
+.jinx:hover{
+    background: url(../img/jinx.jpg);
+    background-size: contain;
+}
+.vi{
+    background: url(../img/CharacterPoster-Vi.jpg);
+    background-size: contain;
+}
+.vi:hover{
+    background: url(../img/vi.jpg);
+    background-size: contain;
+}
+.vander{
+    background: url(../img/CharacterPoster-Vander.jpg);
+    background-size: contain;
+}
+.vander:hover{
+    background: url(../img/warwick.jpg);
+    background-size: contain;
+}
+.block2_text{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(43, 39, 34);
+}
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(43, 39, 34);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+}
+.footer h3{
+    color: white;
+    font-family: monospace;
+    font-size: 150%;
+    padding: 60px 100px 15px;
+}
+.projects p, .contacts p{
+    color: white;
+    font-family: monospace;
+    font-size: 130%;
+    padding: 11px 100px;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+}
+#line{
+    margin-top: 60px;
+}
